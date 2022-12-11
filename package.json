@@ -1,0 +1,27 @@
+{
+  "name": "kafka_k8s_app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "consumer-init": "node consumer.js",
+    "producer-init": "node producer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/si3mshady/kafka-streaming-app-practice-docker-k8s.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/si3mshady/kafka-streaming-app-practice-docker-k8s/issues"
+  },
+  "homepage": "https://github.com/si3mshady/kafka-streaming-app-practice-docker-k8s#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "avsc": "^5.7.7",
+    "node-rdkafka": "^2.14.0"
+  }
+}
